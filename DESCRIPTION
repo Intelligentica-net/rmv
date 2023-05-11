@@ -1,0 +1,36 @@
+Package: rmv
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person("Abdelouahed", "Ben Mhamed", , "a.benmhamed@intelligentica.net", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package allows the interpolation of VMS ping data, the joint of VMS positions and declared catch and the identification of fishing operations.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+Imports: 
+    RSQLite,
+    DBI,
+    tools,
+    chron,
+    stringr,
+    rgdal,
+    sp,
+    data.table,
+    magrittr,
+    maps,
+    grDevices,
+    marmap,
+    fields,
+    utils,
+    dplyr,
+    tidyr,
+    intervals
